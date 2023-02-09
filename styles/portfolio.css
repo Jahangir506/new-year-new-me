@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+}
+.banner-container {
+  position: relative;
+}
+.banner-container img {
+  width: 100%;
+}
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  text-align: right;
+  color: white;
+  font-size: 25px;
+}
+.h-text {
+  margin-bottom: 0;
+}
+.p-text {
+  font-size: 16px;
+  width: 400px;
+  line-height: 23px;
+  margin-top: 7px;
+  margin-bottom: 11px;
+}
+.button {
+  width: 88 px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+}
+.text-container {
+  margin-left: 100px;
+  width: 28%;
+  margin-top: 80px;
+}
+.flex-container img {
+  width: 36%;
+}
+li {
+  line-height: 28px;
+}
+.Plan-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Plan-container img {
+  margin: 30px 90px 0px 90px;
+}
+.plan-title {
+  margin-top: 70px;
+  text-align: center;
+}
+/* .mindset-position img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: 50px 155px 50px 155px;
+} */
+.mindset-position {
+  background-image: linear-gradient(
+      to left,
+      rgba(245, 246, 252, 0.52),
+      rgba(7, 17, 208, 0.911)
+    ),
+    url(../images/watch.png);
+  width: 75%;
+  height: 200px;
+  background-size: cover;
+  color: white;
+  text-align: left;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 50px 155px 50px 155px;
+  border-radius: 7px;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.mindset-text {
+  margin-left: 50px;
+}
+
+.footer-container {
+  background-color: black;
+  color: white;
+  width: 1600px;
+  height: 477px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-part-1 {
+  width: 50%;
+  margin: 0px 100px 0 100px;
+}
+.footer-part-2 {
+  width: 50%;
+  margin: 0px 100px 120px 100px;
+}
+.social img {
+  width: 5%;
+  margin: 3px;
+}
+.footer-button {
+  margin-top: 10px;
+}
+.button-2 {
+  width: 88 px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #005fac;
+  color: white;
+}
